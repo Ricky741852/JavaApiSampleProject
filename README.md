@@ -113,17 +113,20 @@ PUT /users/{id}
 DELETE /users/{id}
 ```
 
-**回應範例**
+## 📝 說明
 
-```
-204 No Content
-```
+- 以下是本專案在 Railway 部署後，利用 Postman 檢測 API 工作情況的範例截圖：
+> - 左側是 Railway 上的 HTTP Log
+> - 右側則是 Postman 執行 POST 請求的結果
+- ![JavaWebApi實際測試結果](https://github.com/user-attachments/assets/f1b11348-a459-4fbf-982e-0fa2cba50007)
+
 
 ## 📝 備註
 
 - 本專案支援 **本地 SQL Server** 與 **Railway PostgreSQL**。
 - 若有問題，請開 Issue 或 PR。
 - Railway 服務網址：[`https://javaapisampleproject-production.up.railway.app`](https://javaapisampleproject-production.up.railway.app)
+- GitHub Repository：[`https://github.com/Ricky741852/JavaApiSampleProject`](https://github.com/Ricky741852/JavaApiSampleProject)
 
 ---
 
